@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "bitset": "cpp",
+        "set": "cpp",
+        "climits": "cpp",
+        "array": "cpp"
+    }
+}
