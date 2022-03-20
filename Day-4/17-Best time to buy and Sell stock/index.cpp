@@ -1,0 +1,24 @@
+// Brute-Force Approach
+// T.C: O(n^2) and S.C: O(1)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int maxProfit(int arr[]) {
+  int maxPro = 0;
+  for (int i = 0; i < 6; i++) {
+    for (int j = i + 1; j < 6; j++) {
+      if (arr[j] > arr[i]) {
+        maxPro = max(arr[j] - arr[i], maxPro);
+      }
+    }
+  }
+  return maxPro;
+}
+
+int main() {
+  int arr[] = {7,1,5,3,6,4};
+  int maxPro = maxProfit(arr);
+  cout << "Max profit is: " << maxPro << endl;
+  return 0;
+}
