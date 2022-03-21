@@ -3,6 +3,7 @@
         "bitset": "cpp",
         "set": "cpp",
         "climits": "cpp",
-        "array": "cpp"
+        "array": "cpp",
+        "iostream": "cpp"
     }
 }
