@@ -1,5 +1,5 @@
 // CPP program to find union and intersection
-// using sets for unsorted arrays with T.C: O(m+n) ans S.C: O(1)
+// using sets for unsorted arrays with T.C: O(m+n) and S.C: O(1)
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -1,5 +1,4 @@
-// C++ program to find intersection of
-// two sorted arrays with T.C: O(m+n)
+// C++ program to find intersection of two sorted arrays with T.C: O(m+n)
 #include <bits/stdc++.h>
 using namespace std;
 
