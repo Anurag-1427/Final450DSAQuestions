@@ -1,5 +1,9 @@
 // https://www.techiedelight.com/find-minimum-maximum-element-array-using-minimum-comparisons/
 
+// Performance:
+// If the array has an even number of elements n, then the above solution does n/2 + 3n/2 + 2 comparisons in both best and worst-case. (Note that we have also considered n/2 comparisons done by for-loop).
+// If the array has an odd number of elements n, then the above solution does (n-1)/2 + 3(n-1)/2 + 4 comparisons in both best and worst-case. (We have also considered (n-1)/2 comparisons done by for-loop).
+
 #include<bits/stdc++.h>
 using namespace std;
 
