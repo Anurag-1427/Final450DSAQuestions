@@ -19,9 +19,7 @@ int minJumps(int arr[], int n)
 	if (arr[0] == 0)
 		return -1;
 
-	// initialization
-	// stores all time the maximal
-	// reachable index in the array.
+	// initialization, stores all time the maximal reachable index in the array.
 	int maxReach = arr[0];
 
 	// stores the number of steps we can still take
@@ -32,7 +30,8 @@ int minJumps(int arr[], int n)
 
 	// Start traversing array
 	int i = 1;
-	for (i = 1; i < n; i++) {
+	for (i = 1; i < n; i++) 
+	{
 		// Check if we have reached the end of the array
 		if (i == n - 1)
 			return jump;
@@ -65,7 +64,8 @@ int minJumps(int arr[], int n)
 // Driver program to test above function
 int main()
 {
-	int arr[] = { 1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9 };
+	int arr[] = { 1, 3, 5, 8, 9, 2, 6, 7, 6, 8, 9 };  //example 2
+    // int arr[] = { 1, 3, 6, 3, 2, 3, 6, 8, 9, 5 };  //example 2
 	int size = sizeof(arr) / sizeof(int);
 
 	// Calling the minJumps function
